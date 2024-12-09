@@ -189,13 +189,12 @@ button h4{
 }
 
 @media (min-width:375px){
-    .body{
+    body{
         display:flex;
         justify-content: center;
         align-items: center;
-        width: 100vw; /* Full width of the viewport */
-        height: 940px;
-        min-height: 100vh;
+        height: 100%;
+        width: 100%;
         background-size: cover;
     }
     .attribution{
