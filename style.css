@@ -18,6 +18,9 @@ html{
     cursor: pointer; 
     border-radius: 10px;
   }
+  .content:hover{
+    background-color: hsl(235, 45%, 61%);
+  }
 p{
     margin: 0px;
     padding: 5px;
