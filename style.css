@@ -13,11 +13,10 @@ html{
     opacity: 1; /* Full opacity for the active button */
   }
   button:hover {
-    background-color:  hsl(264, 64%, 52%);
+    opacity: 1;
     color: white; 
     cursor: pointer; 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
 p{
     margin: 0px;
