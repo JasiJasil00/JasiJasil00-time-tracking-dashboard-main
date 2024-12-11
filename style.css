@@ -62,6 +62,8 @@ button h4{
     font-family: Rubik;
     font-weight: 300;
     background-color: hsl(226, 43%, 10%);
+    justify-content: center;
+    margin-right: 15%;
 }
 
 .profilephoto h1{
@@ -189,6 +191,45 @@ button h4{
 }
 
 @media (min-width:375px){
+    .attribution{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+        padding-left: 20%; 
+        padding-right: 20%;      
+        gap:20px;
+    }
+    .profile{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 100%;
+        width: 100%;
+        margin-left: 5%;
+        margin:0px;
+    }
+    .profilephoto{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    .card{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        
+    }
+    .content{
+        height: 100%;
+    }
+}
+
+@media (min-width:1123px){
     body{
         display:flex;
         justify-content: center;
@@ -203,6 +244,7 @@ button h4{
         grid-template-rows: 1fr 1fr;
         justify-content: center;
         align-items: center;
+        margin-left: 15%;
         padding: 10%;
         padding-left: 20%; 
         padding-right: 20%;      
@@ -212,6 +254,7 @@ button h4{
         grid-area: 1 / 1 / 3 / 2;
         height: 100%;
         width:100%;
+        margin-left: 5%;
         margin:0px;
         max-width: 270px;
     }
